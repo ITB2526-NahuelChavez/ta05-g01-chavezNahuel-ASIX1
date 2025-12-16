@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background: #0f172a; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #f8fafc;
+}
+
+/* CONTENEDORES GENERALES */
+.head, header, aside, article, section, main, footer {
+    border: 1px solid transparent;
+}
+
+/* HEAD */
+.head {
+    background: #2563eb; 
+    padding: 25px 0;
+    margin: 20px;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: #1e40af;
+    padding: 25px 0;
+    margin: 20px;
+    color: white;
+}
+
+/* CONTENEDOR CENTRAL */
+.content {
+    display: flex;
+    margin: 20px;
+    background: #020617; 
+    padding: 10px;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+/* ASIDE */
+aside {
+    width: 25%;
+    background: #7c3aed; 
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #a78bfa; 
+    padding: 20px;
+    border-radius: 6px;
+}
+
+aside li {
+    background: #ede9fe;
+    padding: 30px 0;
+    margin-top: 10px;
+    color: #1e1b4b;
+    border-radius: 6px;
+}
+
+aside li a:hover {
+    background: #FFFFFF;    
+    color: #E50501;
+    border-radius: 6px;
+    transform: translateX(5px);  
+}
+
+aside li a {
+    display: block;       
+    padding: 12px 0;
+    text-decoration: none;
+    color: #1e1b4b;
+    font-weight: bold;
+    transition: 
+        background 0.3s ease,
+        color 0.3s ease,
+        transform 0.2s ease;
+}
+/* ARTICLE */
+article {
+    width: 75%;
+    background: #0ea5e9; 
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+article section {
+    background: #38bdf8; 
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 6px;
+    color: #082f49;
+}
+
+/* MAIN */
+main {
+    background: #e0f2fe; 
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: #082f49;
+}
+
+main .imgitb {
+    background: #0284c7;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.imganonimo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.imgticket img {
+    max-width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.imgmaradona img {
+    max-width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+footer {
+    background: #22c55e;
+    padding: 20px;
+    margin: 40px auto;
+    width: 50%;
+    border-radius: 8px;
+    color: #022c22;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    background: #86efac; 
+    padding: 10px;
+    border-radius: 6px;
+}
+
+footer .footer-content div {
+    width: 45%;
+    background: #dcfce7;
+    padding: 20px;
+    border-radius: 6px;
+    color: #022c22;
+}
+
